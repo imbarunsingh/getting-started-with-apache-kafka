@@ -1,0 +1,4 @@
+kafka:    
+  producer:
+    topic: first_topic
+    bootstrap-servers: localhost:9092
