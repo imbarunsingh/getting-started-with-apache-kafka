@@ -2,6 +2,7 @@
 Getting Started with Kafka using Spring
 
 # Content
+- Kafka Java API
 - Kafka producer
 - Kafka consumer
 - Kafka producer & consumer config with application.yml
