@@ -24,6 +24,7 @@
 	</properties>
 
 	<modules>
+		<module>kafka-java-api</module>
 		<module>spring-kafka-producer</module>
 		<module>spring-kafka-consumer</module>
 		<module>spring-kafka-producer-consumer</module>

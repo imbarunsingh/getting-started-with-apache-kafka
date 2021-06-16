@@ -15,7 +15,7 @@ import lombok.extern.slf4j.Slf4j;
 @Component
 public class Consumer {
 	
-	//https://www.baeldung.com/spring-kafka : refer for more kafka c
+	//https://www.baeldung.com/spring-kafka : refer for more kafka consumer config
 	
 
 	@KafkaListener(topics = "string_topic", groupId = "${kafka.consumer.group-id}", containerFactory = "kafkaListenerContainerFactory")
@@ -39,6 +39,8 @@ public class Consumer {
 //	public void listenToPartition(@Payload String message, @Header(KafkaHeaders.RECEIVED_PARTITION_ID) int partition) {
 //		System.out.println("Received Message: " + message + "from partition: " + partition);
 //	}
+	
+	
 	
 	
 	
