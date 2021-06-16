@@ -4,6 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>getting-started-with-java-kafka</groupId>
 	<artifactId>kafka-java-api</artifactId>
+	<packaging>jar</packaging>
 
 	<name>Getting started with Apache Kafka-Java</name>
 	<description>Getting started with kafka Java API </description>
@@ -18,18 +19,6 @@
 		<dependency>
 			<groupId>org.apache.kafka</groupId>
 			<artifactId>kafka-clients</artifactId>
-
-		</dependency>
-
-		<dependency>
-			<groupId>org.projectlombok</groupId>
-			<artifactId>lombok</artifactId>
-			<scope>provided</scope>
-		</dependency>
-
-		<dependency>
-			<groupId>org.slf4j</groupId>
-			<artifactId>slf4j-simple</artifactId>
-		</dependency>
+		</dependency>		
 	</dependencies>
 </project>
