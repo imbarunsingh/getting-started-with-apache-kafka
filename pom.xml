@@ -9,8 +9,8 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 
-	<name>getting-started-with-spring-kafka</name>
-	<description>Getting Started with Spring Kafka</description>
+	<name>getting-started-with-kafka</name>
+	<description>Getting Started with Kafka</description>
 
 	<parent>
 		<groupId>org.springframework.boot</groupId>
