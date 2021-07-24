@@ -1,5 +1,5 @@
 # getting-started-with-spring-kafka
-Getting Started with Kafka using Spring
+Getting Started with Apache Kafka
 
 # Content
 - Kafka Java API
