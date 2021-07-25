@@ -1,4 +1,4 @@
-# getting-started-with-spring-kafka
+# getting-started-with-apache-kafka
 Getting Started with Apache Kafka
 
 # Content
