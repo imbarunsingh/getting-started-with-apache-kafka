@@ -1,11 +1,10 @@
 package org.spring.kafka.consumer;
 
 import org.spring.kafka.model.User;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
+import org.springframework.kafka.annotation.TopicPartition;
 import org.springframework.kafka.support.KafkaHeaders;
 import org.springframework.messaging.handler.annotation.Header;
-import org.springframework.messaging.handler.annotation.Headers;
 import org.springframework.messaging.handler.annotation.Payload;
 import org.springframework.stereotype.Component;
 
@@ -35,14 +34,8 @@ public class Consumer {
 	}
 	
 	//Consuming Messages from a Specific Partition
-//	@KafkaListener(topicPartitions = @TopicPartition(topic = "topicName", partitions = { "0", "1" }))
-//	public void listenToPartition(@Payload String message, @Header(KafkaHeaders.RECEIVED_PARTITION_ID) int partition) {
-//		System.out.println("Received Message: " + message + "from partition: " + partition);
-//	}
-	
-	
-	
-	
-	
-
+	@KafkaListener(topicPartitions = @TopicPartition(topic = "${partitioned.topic.name}", partitions = { "0", "3" }), containerFactory = "userKafkaListenerContainerFactory")
+    public void listenToPartition(@Payload String message, @Header(KafkaHeaders.RECEIVED_PARTITION_ID) int partition) {
+        System.out.println("Received Message: " + message + " from partition: " + partition);        
+    }
 }

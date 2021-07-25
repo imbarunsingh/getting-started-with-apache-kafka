@@ -8,8 +8,8 @@
 	<packaging>jar</packaging>
 
 	<parent>
-		<groupId>com.spring.kafka</groupId>
-		<artifactId>spring-kafka</artifactId>
+		<groupId>com.kafka</groupId>
+		<artifactId>getting-started-with-apache-kafka</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 

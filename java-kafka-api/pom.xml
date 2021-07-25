@@ -3,15 +3,15 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>getting-started-with-java-kafka</groupId>
-	<artifactId>kafka-java-api</artifactId>
+	<artifactId>java-kafka-api</artifactId>
 	<packaging>jar</packaging>
 
 	<name>Getting started with Apache Kafka-Java</name>
 	<description>Getting started with kafka Java API </description>
 
 	<parent>
-		<groupId>com.spring.kafka</groupId>
-		<artifactId>spring-kafka</artifactId>
+		<groupId>com.kafka</groupId>
+		<artifactId>getting-started-with-apache-kafka</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
 
@@ -19,6 +19,6 @@
 		<dependency>
 			<groupId>org.apache.kafka</groupId>
 			<artifactId>kafka-clients</artifactId>
-		</dependency>		
+		</dependency>
 	</dependencies>
 </project>
