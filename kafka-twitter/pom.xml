@@ -2,19 +2,15 @@
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>getting-started-with-java-kafka</groupId>
-	<artifactId>java-kafka-api</artifactId>
-	<packaging>jar</packaging>
-
-	<name>Getting started with Apache Kafka-Java</name>
-	<description>Getting started with kafka Java API </description>
-
+	<groupId>kafka.producer.twitter</groupId>
+	<artifactId>kafka-producer-twitter</artifactId>
+	
 	<parent>
 		<groupId>com.kafka</groupId>
 		<artifactId>getting-started-with-apache-kafka</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-
+	
 	<dependencies>
 		<dependency>
 			<groupId>org.apache.kafka</groupId>

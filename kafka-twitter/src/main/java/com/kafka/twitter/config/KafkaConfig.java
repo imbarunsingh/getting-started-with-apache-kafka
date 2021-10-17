@@ -1,7 +1,6 @@
-package com.kafka.config;
+package com.kafka.twitter.config;
 
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import org.apache.kafka.clients.consumer.ConsumerConfig;
@@ -11,7 +10,7 @@ import org.apache.kafka.clients.producer.ProducerConfig;
 import org.apache.kafka.common.serialization.StringDeserializer;
 import org.apache.kafka.common.serialization.StringSerializer;
 
-import com.google.common.collect.Lists;
+import com.kafka.twitter.constants.KafkaConstants;
 
 public class KafkaConfig {	
 	
